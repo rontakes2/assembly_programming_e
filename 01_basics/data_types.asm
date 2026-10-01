@@ -2,7 +2,7 @@
 ; Assemble the program: nasm -f elf64 data_types.asm -o data_types.o
                     ;   nasm -f elf64 -o data_types.o data_types.asm 
 ; Link it:              ld data_types.o -o data_types
-; Run the file          ./data_types
+; Run the file          ./data_t
 
 section .data
     ; Basic integer types
